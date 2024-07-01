@@ -5,11 +5,11 @@ ACCEL_BASE_FOLDER=`dirname $SRCLOCATION`
 CHILD_BASE_FOLDER=`pwd`
 set -a
 # source $CHILD_BASE_FOLDER/site.properties
-# source $SRCLOCATION/lib/environmentSetup.sh
+source $SRCLOCATION/environmentSetup.sh
 
 set +a
 
-# checkBuildDependencies
+checkBuildDependencies
 
 deployCode()
 {
