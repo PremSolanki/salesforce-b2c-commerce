@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
+    <custom-preferences>
+        <all-instances/>
+        <development>
+            <preference preference-id="stripeApiKey">sk_test_51Owk5mP4nLHquZQu6cbFNeuBkKQxpN9VKYAYngyt4NNVb1dtvnv7SPBpld6zDSIvji7zXS65521HafetZWbNa2aN0099cJfji0</preference>
+            <preference preference-id="stripePublicKey">pk_test_51Owk5mP4nLHquZQuiJbZqAJcCf0cPbZiJUD2yWvfmScb44KwXuQyDPGpJatz7Gbv1D38jKHpmpR4H5ZBJnXRDb4n00sXWIBmfz</preference>
+            <preference preference-id="stripeIsSFRA">true</preference>
+			<preference preference-id="stripeChargeCapture">true</preference>
+            <preference preference-id="stripeCardElementCSSStyle">{"base": {"fontFamily": "Arial, sans-serif","fontSize": "14px","color": "#C1C7CD"},"invalid": {"color": "red" } }</preference>
+        </development>
+    </custom-preferences>
+</preferences>
+

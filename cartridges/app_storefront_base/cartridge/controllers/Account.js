@@ -449,6 +449,7 @@ server.post(
                         profile.setLastName(formInfo.lastName);
                         profile.setEmail(formInfo.email);
                         profile.setPhoneHome(formInfo.phone);
+                        profile.custom.profileImage = profileForm.customer.profileImage.htmlValue;
                     });
 
                     // Send account edited email

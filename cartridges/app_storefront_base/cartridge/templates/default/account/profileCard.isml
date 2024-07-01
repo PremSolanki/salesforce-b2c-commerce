@@ -9,6 +9,7 @@
         <dl>
             <dt>${Resource.msg('label.profile.firstname','account',null)}</dt>
             <dd>${pdict.account.profile.firstName}</dd>
+            <img alt="profile" src="${(pdict.account.profile.profileImage).toString().replace(/ /g, '+')}"/>
         </dl>
         <dl>
             <dt>${Resource.msg('label.profile.lastname','account',null)}</dt>

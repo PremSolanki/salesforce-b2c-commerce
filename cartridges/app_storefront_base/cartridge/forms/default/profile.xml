@@ -45,6 +45,13 @@
 			type="string"/> 
 			<!-- TODO value-error not comming back from the platform -->
 			
+			<field 
+			formid="profileImage"
+			label="label.input.profileImage.profile"
+			mandatory="false"
+			type="string"/> 
+			<!-- TODO value-error not comming back from the platform -->
+			
 		<field 
 			formid="phone"
 			label="label.input.phone.profile"

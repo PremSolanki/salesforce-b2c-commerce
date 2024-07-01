@@ -49,6 +49,14 @@
         <div class="invalid-feedback"></div>
     </div>
 
+    <div class="form-group>
+        <label class="form-control-label" for="profileImage">
+        
+        </label>
+        <input type="file" accept="image/*" class="form-control" id="profileImage">
+    </div>
+
+
     <div class="form-group
         <isif condition="${pdict.profileForm.login.password.mandatory === true}">required</isif>">
         <label class="form-control-label" for="password">

@@ -17,7 +17,8 @@ function getProfile(profile) {
             lastName: profile.lastName,
             email: profile.email,
             phone: Object.prototype.hasOwnProperty.call(profile, 'phone') ? profile.phone : profile.phoneHome,
-            password: '********'
+            password: '********',
+            profileImage: profile.custom.profileImage
         };
     } else {
         result = null;
@@ -115,7 +116,7 @@ function getCustomerPaymentInstruments(userPaymentInstruments) {
  * @constructor
  */
 function account(currentCustomer, addressModel, orderModel) {
-    this.profile = getProfile(currentCustomer.profile);
+    this.profile = getProfile(currentCustomer.raw.profile);
     this.addresses = getAddresses(currentCustomer.addressBook);
     this.preferredAddress = addressModel || getPreferredAddress(currentCustomer.addressBook);
     this.orderHistory = orderModel;
